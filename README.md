@@ -1,3 +1,3 @@
 # learning CSS
 
-CSS got so much better!
+HTML & CSS are so fun!
