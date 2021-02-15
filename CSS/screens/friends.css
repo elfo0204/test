@@ -1,0 +1,45 @@
+#Friends-display-link {
+  background-color: #fafafa;
+  display: block;
+  text-align: center;
+  padding: 15px;
+  font-size: 13px;
+  margin-bottom: 7px;
+  margin-top: -10px;
+}
+
+#Friends-display-link i {
+  margin-left: 5px;
+  margin-right: 5px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.friends-screen {
+  padding: 0px, var(--horizontal-space);
+}
+
+@keyframes splashhidscreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+#splash {
+  background-color: var(--yellow);
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 55px;
+  color: #3d1d1f;
+  animation: splashhidscreen 1s ease-in-out forwards;
+  animation-delay: 2s;
+}

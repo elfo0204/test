@@ -1,0 +1,44 @@
+.badge {
+  background-color: #ff6229;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  color: white;
+  font-weight: 600;
+}
+
+.badge__dot {
+  background-color: #ff6229;
+  display: flex;
+  height: 4px;
+  width: 4px;
+  border-radius: 50%;
+  position: absolute;
+  left: 30px;
+}
+
+.badge__dot2 {
+  background-color: #ff6229;
+  display: flex;
+  height: 4px;
+  width: 4px;
+  border-radius: 50%;
+  position: absolute;
+  left: 87px;
+  bottom: 18px;
+}
+
+.badge__bang {
+  display: inline-block;
+  text-align: center;
+  border: 1px solid #ff6229;
+  border-radius: 50%;
+  color: #ff6229;
+  font-size: 10px;
+  width: 10px;
+  height: 10px;
+  margin-left: 3px;
+}
